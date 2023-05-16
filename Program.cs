@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/* Visual Studio: run the app, change the message, click Hot Reload button.
+   Visual Studio Code: run the app using dotnet watch, change the message. */
+
+while(true){
+  WriteLine($"PeePee PooPoo");
+  await Task.Delay(2000);
+}
